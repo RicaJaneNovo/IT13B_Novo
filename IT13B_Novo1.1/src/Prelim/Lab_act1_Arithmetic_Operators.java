@@ -1,6 +1,12 @@
-run:
-10*4+6=46
-10-4%6=1
-10+4+6=20
-10*4-4*4=44
-BUILD SUCCESSFUL (total time: 0 seconds)
+public static void main(String[] args){
+        
+        int X = 10;
+        int Y  = 4;
+        int Z = 6;
+        
+      System.out.println(X + "*" + Y + "+" + Z + "=" + (X * Y + Z));
+      System.out.println(X + "-" + Y + "%" + Z + "=" + ((X - Y) / Z));
+      System.out.println(X + "+" + Y + "+" + Z + "=" + (X + Y + Z));
+      System.out.println(X + "*" + Y + "-" + Y + "*" + Y + "=" + (X * Z - Y * Y));
+      
+  }
